@@ -1,1 +1,3 @@
 # LinkedQueue
+
+The dequeue function only works once before it breaks and I couldn't figure out how to fix it. When I first started coding it was working find but then I changed the enqueue function since it wasn't keeping things in order, the dequeue function didn't like that. I know it's getting through the functions since it was printing off all the cout things I put at the end of each function to make sure it worked so I think it has something to do with how I set up the queue like maybe I made something equal to null when it should have been equal to something else but I haven't been able to fix it.
