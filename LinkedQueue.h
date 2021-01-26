@@ -36,8 +36,9 @@ struct Queue{
             else{
                 temp = front;
                 front = front->next;
-                cout << "Deleting " << temp->value << endl; //shows what the front number is and that it's being dequeued
+                cout << "Dequeuing " << temp->value << endl; //shows what the front number is and that it's being dequeued
                 delete temp;
+                //cout << "dequeue" << endl;
             }
         }
 
